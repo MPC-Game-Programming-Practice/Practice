@@ -17,8 +17,7 @@ void Main()
 		}
 		for (auto it = circles.end();it!=circles.begin();) {
 			it--;
-			it->draw(Palette::Blue);
-			it->drawFrame();
+			it->draw(Palette::Blue).drawFrame();
 		}
 	}
 }
